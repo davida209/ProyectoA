@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { ConsejoskidsPageModule } from './pages/consejoskids/consejoskids.module';
 
 const routes: Routes = [
 
@@ -48,6 +49,37 @@ const routes: Routes = [
     path: 'consejoskids',
     loadChildren: () => import('./pages/consejoskids/consejoskids.module').then( m => m.ConsejoskidsPageModule)
   },
+  
+  {
+    path: 'consejokids1',
+    loadChildren: () => import('./pages/consejospagekids/consejokids1/consejokids1.module').then( m => m.Consejokids1PageModule)
+  },
+  {
+    path: 'multimediakids',
+    loadChildren: () => import('./pages/multimediakids/multimediakids.module').then( m => m.MultimediakidsPageModule)
+  },
+  {
+    path: 'guiaskids',
+    loadChildren: () => import('./pages/guiaskids/guiaskids.module').then( m => m.GuiaskidsPageModule)
+  },
+  {
+    path: 'guiaskids1',
+    loadChildren: () => import('./pages/guiaspagekids/guiaskids1/guiaskids1.module').then( m => m.Guiaskids1PageModule)
+  },
+  {
+    path: 'dibujoskids',
+    loadChildren: () => import('./pages/dibujoskids/dibujoskids.module').then( m => m.DibujoskidsPageModule)
+  },
+  {
+    path: 'dibujoskids1',
+    loadChildren: () => import('./pages/dibujospagekids/dibujoskids1/dibujoskids1.module').then( m => m.Dibujoskids1PageModule)
+  },
+
+
+  
+
+
+
 
 ];
 

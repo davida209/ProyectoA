@@ -9,6 +9,8 @@ import { KidsPageRoutingModule } from './kids-routing.module';
 import { KidsPage } from './kids.page';
 import { ComponentsModule } from 'src/app/components/components.module';
 import { ConsejoskidsPageModule } from '../consejoskids/consejoskids.module';
+import { MultimediaPageModule } from '../multimedia/multimedia.module';
+
 
 @NgModule({
   imports: [
@@ -18,6 +20,8 @@ import { ConsejoskidsPageModule } from '../consejoskids/consejoskids.module';
     KidsPageRoutingModule,
     ComponentsModule,
     ConsejoskidsPageModule,
+    MultimediaPageModule,
+    
   ],
   declarations: [KidsPage]
 })

@@ -4,21 +4,21 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ConsejoskidsPageRoutingModule } from './consejoskids-routing.module';
+import { MultimediakidsPageRoutingModule } from './multimediakids-routing.module';
 
-import { ConsejoskidsPage } from './consejoskids.page';
-import { AppRoutingModule } from '../../app-routing.module';
+import { MultimediakidsPage } from './multimediakids.page';
+import { AppModule } from 'src/app/app.module';
 import { ComponentsModule } from '../../components/components.module';
-import { ConsejosPage } from '../consejos/consejos.page';
+import { KidsPageModule } from '../kids/kids.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ConsejoskidsPageRoutingModule,
+    MultimediakidsPageRoutingModule,
     ComponentsModule,
   ],
-  declarations: [ConsejoskidsPage]
+  declarations: [MultimediakidsPage]
 })
-export class ConsejoskidsPageModule {}
+export class MultimediakidsPageModule {}
