@@ -1,23 +1,58 @@
+h1.welcome{
+    font-family: Robotobold;
+}
+.iconp{
+    
+    color: #F97CFF;
+    
+}
+.buttonp{
+    font-family: Robotoregular !important;
+}
+.buttonk{
+    font-family: Robotoregular !important;
+}
 
-.button.buttonpc{ 
+.button.buttonpc{
 
     height: 150px;
     width: 150px;
+    padding: 6px;
+    color: rgb(219, 63, 63);
+    font-family: Robotobold !important;
 }
 .button.buttonpp{
 
     height: 150px;
     width: 150px;
+    padding: 6px;
+    color: rgb(196, 151, 27);
+    font-family: Robotobold !important;
 }
 
 .button.buttonpm{
 
     height: 150px;
     width: 150px;
+    padding: 6px;
+    color: rgb(231, 64, 209);
+    font-family: Robotobold !important;
 }
 
 .button.buttonpco{
 
     height: 150px;
     width: 150px;
+    padding: 6px;
+    color: rgb(100, 64, 231);
+    font-family: Robotoregular !important;
+}
+
+
+.buttonref{
+    height: 40px;
+    width: 220px;
+    font-family: Robotoregular !important;
+    margin-left: auto;
+    margin-right: auto;
 }

@@ -8,6 +8,7 @@ import { KidsPageRoutingModule } from './kids-routing.module';
 
 import { KidsPage } from './kids.page';
 import { ComponentsModule } from 'src/app/components/components.module';
+import { ConsejoskidsPageModule } from '../consejoskids/consejoskids.module';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { ComponentsModule } from 'src/app/components/components.module';
     FormsModule,
     IonicModule,
     KidsPageRoutingModule,
-    ComponentsModule
+    ComponentsModule,
+    ConsejoskidsPageModule,
   ],
   declarations: [KidsPage]
 })

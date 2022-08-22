@@ -44,6 +44,11 @@ const routes: Routes = [
     path: 'consejo2',
     loadChildren: () => import('./pages/consejospage/consejo2/consejo2.module').then( m => m.Consejo2PageModule)
   },
+  {
+    path: 'consejoskids',
+    loadChildren: () => import('./pages/consejoskids/consejoskids.module').then( m => m.ConsejoskidsPageModule)
+  },
+
 ];
 
 @NgModule({
