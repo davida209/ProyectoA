@@ -4,20 +4,19 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { Consejokids1PageRoutingModule } from './consejokids1-routing.module';
+import { Guiaskids2PageRoutingModule } from './guiaskids2-routing.module';
 
-import { Consejokids1Page } from './consejokids1.page';
+import { Guiaskids2Page } from './guiaskids2.page';
 import { ComponentsModule } from '../../../components/components.module';
-import { Consejo1PageModule } from '../../consejospage/consejo1/consejo1.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    Consejokids1PageRoutingModule,
+    Guiaskids2PageRoutingModule,
     ComponentsModule,
   ],
-  declarations: [Consejokids1Page]
+  declarations: [Guiaskids2Page]
 })
-export class Consejokids1PageModule {}
+export class Guiaskids2PageModule {}

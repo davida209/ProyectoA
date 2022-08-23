@@ -74,6 +74,27 @@ const routes: Routes = [
     path: 'dibujoskids1',
     loadChildren: () => import('./pages/dibujospagekids/dibujoskids1/dibujoskids1.module').then( m => m.Dibujoskids1PageModule)
   },
+  {
+    path: 'consejokids2',
+    loadChildren: () => import('./pages/consejospagekids/consejokids2/consejokids2.module').then( m => m.Consejokids2PageModule)
+  },
+  {
+    path: 'consejokids3',
+    loadChildren: () => import('./pages/consejospagekids/consejokids3/consejokids3.module').then( m => m.Consejokids3PageModule)
+  },
+  {
+    path: 'consejokids4',
+    loadChildren: () => import('./pages/consejospagekids/consejokids4/consejokids4.module').then( m => m.Consejokids4PageModule)
+  },
+  {
+    path: 'guiaskids2',
+    loadChildren: () => import('./pages/guiaspagekids/guiaskids2/guiaskids2.module').then( m => m.Guiaskids2PageModule)
+  },
+
+
+
+
+
 
 
   
