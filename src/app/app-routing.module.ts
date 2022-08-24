@@ -90,6 +90,21 @@ const routes: Routes = [
     path: 'guiaskids2',
     loadChildren: () => import('./pages/guiaspagekids/guiaskids2/guiaskids2.module').then( m => m.Guiaskids2PageModule)
   },
+  {
+    path: 'guiaskids3',
+    loadChildren: () => import('./pages/guiaspagekids/guiaskids3/guiaskids3.module').then( m => m.Guiaskids3PageModule)
+  },
+  {
+    path: 'dibujoskids2',
+    loadChildren: () => import('./pages/dibujospagekids/dibujoskids2/dibujoskids2.module').then( m => m.Dibujoskids2PageModule)
+  },
+  {
+    path: 'dibujoskids3',
+    loadChildren: () => import('./pages/dibujospagekids/dibujoskids3/dibujoskids3.module').then( m => m.Dibujoskids3PageModule)
+  },
+
+
+
 
 
 
