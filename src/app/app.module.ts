@@ -8,6 +8,8 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ComponentsModule } from './components/components.module';
 
+import { VideoPlayer } from '@ionic-native/video-player/ngx';
+
 @NgModule({
   declarations: [AppComponent],
   imports: [
@@ -15,9 +17,15 @@ import { ComponentsModule } from './components/components.module';
     AppRoutingModule,
     ComponentsModule
   ],
-  providers: [{ 
+  providers: [
+
+    VideoPlayer,
+
+    { 
     provide: RouteReuseStrategy,
-    useClass: IonicRouteStrategy
+    useClass: IonicRouteStrategy,
+    
+    
    }],
   bootstrap: [
     AppComponent

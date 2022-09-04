@@ -3,22 +3,31 @@
   <ion-searchbar></ion-searchbar>
   <ion-grid>
 
-       <ion-col>
-          <ion-row>
-                <ion-button expand="block"  routerLink="/consejokids1">Cepillado de dientes</ion-button>
-          </ion-row>
-          <ion-row>
-        <ion-button expand="block" routerLink="/consejokids2">Prevención de caries</ion-button>
-          </ion-row>
-          <ion-row>
-              <ion-button expand="block" routerLink="/consejokids3">Cuidado de encias</ion-button>
-          </ion-row>
-          <ion-row>
-              <ion-button  expand="block" routerLink="/consejokids4">Guia del cuidado bucal</ion-button>
-          </ion-row>
+    <ion-button>Mejor Valoración</ion-button>
+
+       <ion-list>
+        <ion-item>
+            <ion-label  expand="block"  routerLink="/consejokids1">Cepillado de dientes</ion-label>
+            <ion-icon  routerLink="/consejokids4" name="chevron-forward-outline"></ion-icon>
+        </ion-item>
+        <ion-item>
+            <ion-label  expand="block" routerLink="/consejokids2">Prevención de caries</ion-label>
+            <ion-icon  routerLink="/consejokids4" name="chevron-forward-outline"></ion-icon>
+        </ion-item>
+        <ion-item>
+            <ion-label  expand="block" routerLink="/consejokids3">Cuidado de encias</ion-label>
+            <ion-icon  routerLink="/consejokids4" name="chevron-forward-outline"></ion-icon>
+        </ion-item>
+
+        <ion-item>
+      
+            <ion-label  routerLink="/consejokids4">Guia del cuidado bucal</ion-label>
+            <ion-icon  routerLink="/consejokids4" name="chevron-forward-outline"></ion-icon>
+        </ion-item>
+     
+      </ion-list>
 
 
-       </ion-col>
     
   </ion-grid>
 </ion-content>
